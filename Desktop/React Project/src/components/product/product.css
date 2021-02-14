@@ -1,0 +1,16 @@
+.product {
+    display: inline-block;
+    width: 300px;
+    min-height: 400px;
+    border: 2px solid #c5c5c6;
+    border-radius: 4px;
+    padding: 10px;
+    margin:14px;
+}
+
+.product:hover
+{
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+    transform: scale(1.1)  ;
+}

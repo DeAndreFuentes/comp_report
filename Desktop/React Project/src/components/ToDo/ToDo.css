@@ -1,0 +1,68 @@
+.txt-task{
+    background-color: white;
+    width: 60%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid #dedede;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.add-button{
+    background-color: #910523;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.add-button:hover{
+    transform: scale(1.1);
+}
+
+.txt-task{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    list-style-type: none;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: #dedede;
+    box-shadow: 2px 3px grey;
+}
+
+.important {
+    padding-top: 17px;
+    padding-right: 20px;
+    color: grey;
+}
+
+.important:hover{
+    transform: scale(1.1);
+    color: blue;
+    cursor: pointer;
+}
+
+p {
+    padding-top: 13px;
+    padding-left: 20px;
+}
+
+.todo-title
+{
+    background: rgb(0,118,245);
+background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%);
+    border-radius: 30px;
+    color:white;
+    padding: 10px;
+}

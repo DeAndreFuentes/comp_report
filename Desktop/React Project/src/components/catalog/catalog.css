@@ -1,0 +1,14 @@
+
+
+.catalog-page
+{
+    margin-top: 35px;
+}
+
+.products
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    justify-content: center;
+}

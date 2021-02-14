@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = DeAndreFuentes
+	email = 74945613+DeAndreFuentes@users.noreply.github.com
+[gui]
+	recentrepo = C:/Users/acer/aaa

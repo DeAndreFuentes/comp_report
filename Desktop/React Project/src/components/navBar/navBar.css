@@ -1,0 +1,63 @@
+body
+{
+    margin: 0px;
+}
+.nav-item:hover
+{
+box-shadow: none !important;
+}
+.top-bar
+{
+    background: rgb(0,118,245);
+    background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 10px 0px;
+}
+.top-bar .top-bar-left span
+{
+    margin: 0px 10px;
+}
+.top-bar .top-bar-right span
+{
+    margin: 0px 7px;
+}
+.top-navbar
+{
+    display: flex;
+    justify-content: center;
+}
+nav #navbar-right-download-button
+{
+    color: white;
+    background: rgb(0,118,245);
+background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%);    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+#navbar-right-side-home
+{
+    color:#007bff;
+    transition: 1s all;
+    background: rgb(0,118,245);
+    background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%);
+    color: white;
+}
+#navbar-right-side-other
+{
+    transition: 0.6s all;
+}
+#navbar-right-side-other:hover
+{
+    background: rgb(0,118,245);
+    background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%);
+    color: white;
+}
+i:hover
+{
+    cursor: pointer;
+}
+
