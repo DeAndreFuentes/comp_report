@@ -55,10 +55,19 @@ class NavBar extends Component {
                         <Link className="nav-link" to="/ToDo" id="navbar-right-side-other">ToDo <span
                                 className="sr-only">(current)</span></Link>
                     </li>
+                    
                 </ul>
                 <button className="mx-2" id="navbar-right-download-button">SHOP NOW</button>
-                <i className="fas fa-search mx-3" id="navbar-right-side-other"></i>
+
+                {/* <i className="fas fa-search mx-3" id="navbar-right-side-other"></i> */}
                 <i className="fas fa-shopping-cart mx-3" id="navbar-right-side-other"></i>
+
+                <Link  className="btn btn-outline-primary" to="/cart">
+                    View Cart
+                    Cart: {this.props.count}
+                </Link>
+
+
                 Cart: {this.props.count}
             </form>
         </div>
@@ -71,9 +80,11 @@ class NavBar extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        count: state
+        count: state.cart.length,
     };
 };
 
  
 export default connect(mapStateToProps, null)(NavBar);
+
+

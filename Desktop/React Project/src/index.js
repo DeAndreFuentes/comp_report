@@ -5,10 +5,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import cartCounterReducer from "./store/reducers/cardCounter";
+import rootReducer from "./store/reducers/rootReducer";
 
 const store = createStore(
-  cartCounterReducer,
+  rootReducer,
+
   window._REDUX_DEVTOOLS_EXTENSION_ && Window._REDUX_DEVTOOLS_EXTENSION_()
 );
 

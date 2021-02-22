@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import QuantityPicker from "../quantityPicker/quantityPicker";
+import { addProductToCart } from "../../store/actions/actions";
 
 
 import "./product.css";
-import { increaseCounter, decreaseCounter } from "../../store/actions/actions";
 
 class Product extends Component {
     state = { 
         minimum: this.props.data.minimum || 1,
         price: this.props.data.price,
         total: this.props.data.price,
+        quantity: this.props.data.minimum || 1,
 
      };
     render() { 
@@ -40,7 +41,12 @@ class Product extends Component {
     }
 
     handleAppProduct = () => {
-        this.props.increaseCounter();
+var prodInCart = {
+    product: this.props.data,
+    quantity: this.state.quantity,
+}
+        
+        this.props.addProductToCart( prodInCart);
 
     };
 
@@ -48,8 +54,8 @@ class Product extends Component {
     handleValueChange = (qnty) => {
 console.log("value has changed", qnty);
 let total = this.state.price * qnty;
-this.setState({ total: total});    
+this.setState({ total: total, quantity: qnty});    
     };
 }
  
-export default  connect(null,{ increaseCounter, decreaseCounter})(Product);
+export default  connect(null,{ addProductToCart })(Product);
