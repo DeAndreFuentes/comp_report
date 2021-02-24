@@ -38,14 +38,14 @@ background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%
     padding: 10px 20px;
     border-radius: 8px;
 }
-#navbar-right-side-home
+/* #navbar-right-side-home
 {
     color:#007bff;
     transition: 1s all;
     background: rgb(0,118,245);
     background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%);
     color: white;
-}
+} */
 #navbar-right-side-other
 {
     transition: 0.6s all;
@@ -55,9 +55,16 @@ background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%
     background: rgb(0,118,245);
     background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%);
     color: white;
+    border-radius: 10px;
 }
 i:hover
 {
     cursor: pointer;
 }
 
+.main-logo
+{
+    width: 140px;
+    margin-top: -35px;
+    margin-bottom: -50px;
+}

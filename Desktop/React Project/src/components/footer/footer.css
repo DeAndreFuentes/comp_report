@@ -4,3 +4,35 @@
     text-decoration: underline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+.footer
+{
+    background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%);
+}
+
+.footer a
+{
+    color:white!important;
+    font-weight: 500;
+}
+.footer i
+{
+    color: white!important;
+    font-weight: 500;
+    font-size: 30px;
+}
+.footer a:hover
+{
+    cursor: pointer;
+}
+
+.copyright-text
+{
+    color: white!important;
+    font-weight: 500;
+}
+.footer .logo-image
+{
+    width: 200px;
+}

@@ -97,17 +97,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <React.Fragment> 
-        <br/>
-        <hr/>
-        <br />
-          <br />
-        <h1 className="todo-title text-center font-weight-bold my-4 display-4">
-            MY TO DO LIST
-          </h1>
+      <React.Fragment>
+
+        <h1 className="todo-title text-center font-weight-bold my-4 ">
+          MY TO DO LIST
+        </h1>
         <div className="mx-auto w-75">
 
-      
+
           <h3 className="text-left w-75  mx-auto mb-0 ">Add an Item...</h3>
           <div className="row  w-75 mx-auto mt-4">
             <div className="col-sm-10 p-0">

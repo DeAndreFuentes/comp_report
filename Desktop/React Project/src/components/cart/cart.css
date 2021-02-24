@@ -1,0 +1,38 @@
+
+
+.cart-page
+{
+    min-height: 75vh;
+}
+
+.product-deck
+{
+    min-height: 30vh;
+}
+
+
+@media (min-width: 768px)
+{
+    
+.cart-product-image
+{
+    height: 60px;
+    width: 60px;
+}
+
+.w-md-25
+{
+    width: 25%;
+}
+}
+
+@media (max-width: 768px)
+{
+    
+.cart-product-image
+{
+    height: 120px;
+    width: 120px;
+}
+
+}

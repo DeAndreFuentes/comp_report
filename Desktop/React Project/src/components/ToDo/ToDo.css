@@ -36,10 +36,6 @@
     padding: 10px;
 }
 
-ul li:hover{
-    background-color: #dedede;
-    box-shadow: 2px 3px grey;
-}
 
 .important {
     padding-top: 17px;

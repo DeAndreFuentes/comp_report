@@ -12,3 +12,15 @@
     padding: 0px 20px;
     justify-content: center;
 }
+
+.button-primary
+{
+    border: 2px solid rgba(0,118,245,1);
+    color: rgb(0,118,245);
+}
+
+.button-primary:hover
+{
+    background: linear-gradient(90deg, rgba(0,118,245,1) 0%, rgba(96,173,255,1) 100%);
+    color: white;
+}

@@ -28,10 +28,13 @@ class Catalog extends Component {
 
     return (
       <div className="catalog-page">
-        <div className="categories">
+         <h1 className="todo-title text-center font-weight-bold my-4 ">
+          Shop
+        </h1>
+        <div className="categories d-flex justify-content-center my-4">
           <button
             onClick={() => this.handleCategoryClick("")}
-            className="btn btn-sm btn-info"
+            className="btn btn-sm  button-primary"
           >
             All Products
           </button>
@@ -40,18 +43,19 @@ class Catalog extends Component {
             <button
               key={cat}
               onClick={() => this.handleCategoryClick(cat)}
-              className="btn btn-sm btn-info"
+              className="btn btn-sm  button-primary mx-2 px-3"
             >
               {cat}
             </button>
           ))}
 
-          <div className="products">
+        </div>
+        
+        <div className="products">
             {productsToDisplay.map((prod) => (
               <Product key={prod.id} data={prod}></Product>
             ))}
           </div>
-        </div>
       </div>
     );
   }
